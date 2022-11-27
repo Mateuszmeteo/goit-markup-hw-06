@@ -364,7 +364,7 @@
 .sec1 {
     /* background-color: dimgray; */
     background: #2F303A;
-    background-image: url(./images/imgback.jpg);
+    background-image: url(./../images/imgback.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: rgba(47, 48, 58, 1); */
