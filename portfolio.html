@@ -32,8 +32,8 @@
                     <div class="headdiv">
                         <nav class="head2">
                             <ul class="head2list">
-                                <li><svg width="16px" height="12px"><use href="./images/icons.svg#icon-mail"></use></svg><a class="logoup3 nolink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                                <li><svg width="10px" height="16px"><use href="./images/icons.svg#icon-phone"></use></svg><a class="logoup3 nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
+                                <li><a class="logoup3 nolink" href="mailto:info@devstudio.com"><svg width="16" height="12"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
+                                <li><a class="logoup3 nolink" href="tel:+48 111 111 111"><svg width="10" height="16"><use href="./images/icons.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -78,7 +78,7 @@
                                 <p class="wrap__list-wraptext-p">Strona internetowa</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP2.jpg" alt="2" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -97,7 +97,7 @@
                                 <p class="wrap__list-wraptext-p">Dizajn</p>
                             </div> 
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP3.jpg" alt="3" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -116,7 +116,7 @@
                                 <p class="wrap__list-wraptext-p">Aplikacja</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP4.jpg" alt="4" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -135,7 +135,7 @@
                                 <p class="wrap__list-wraptext-p">Marketing</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP5.jpg" alt="5" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -154,7 +154,7 @@
                                 <p class="wrap__list-wraptext-p">Aplikacja</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP6.jpg" alt="6" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -173,7 +173,7 @@
                                 <p class="wrap__list-wraptext-p">Strona internetowa</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP7.jpg" alt="7" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -192,7 +192,7 @@
                                 <p class="wrap__list-wraptext-p">Dizajn</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP8.jpg" alt="8" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -211,7 +211,7 @@
                                 <p class="wrap__list-wraptext-p">Marketing</p>
                             </div>
                         </li>
-                        <li>
+                        <li class="wrap__list-element">
                             <div class="wrap__list-portimg">
                                 <img src="images/imgP9.jpg" alt="9" width="370" height="294"/>
                                     <div class="wrap__list-overlay">
@@ -253,11 +253,27 @@
                     <div class="footdivtwo">
                         <h4>dołącz do nas</h4>
                         <ul class="">
-                            <li><svg width="20px" height="20px"><use href="./images/icons.svg#icon-instagram2"></use></svg></li>
-                            <li><svg width="20px" height="20px"><use href="./images/icons.svg#icon-twitter2"></use></svg></li>
-                            <li><svg width="20px" height="20px"><use href="./images/icons.svg#icon-facebook2"></use></svg></li>
-                            <li><svg width="20px" height="20px"><use href="./images/icons.svg#icon-linkedin2"></use></svg></li>
+                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-instagram2"></use></svg></li>
+                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-twitter2"></use></svg></li>
+                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-facebook2"></use></svg></li>
+                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-linkedin2"></use></svg></li>
                         </ul>
+                    </div>
+                    <div class="foot-div-three">
+                        <form class="foot-div-three--form">
+                            <h4 class="foot-div-three-h4">zapisz się do newslettera</h4>
+                            <fieldset class="form-fieldset">
+                                <label class="form-label" for="name">zapisz się do newslettera</label>
+                                <input class="foot-div-three-input"
+                                    type="text"
+                                    placeholder="E-mail"
+                                    id="name"
+                                />
+                                <button class="foot-div-three-button">Zapisz się
+                                    <svg width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg>
+                                </button>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>

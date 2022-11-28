@@ -96,12 +96,13 @@
 .head2list svg{ 
     margin-right: 10px;
     fill: #757575;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head2list svg:hover{
     cursor: pointer; 
     fill: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .logoup {
     font-family: 'Raleway', sans-serif;
@@ -124,6 +125,8 @@
     line-height: 0.875px;
     /* line-height: 16px; */
     letter-spacing: 0.02em;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logoup3 {
     /* background-color: darkgoldenrod; */
@@ -135,16 +138,17 @@
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logoup2:hover {
     color: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .logoup3:hover {
     color: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 /* .nolink-mail { */
     /* display: flex; */
@@ -226,10 +230,13 @@
     letter-spacing: 0.03em;
 
 }
-.logodown2:hover {
-    color: #2196F3;
+.logodown2 {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logodown2:hover {
+    color: #2196F3;
+
 }
 .footdivone ul {
     list-style: none;
@@ -260,11 +267,12 @@
     /* border: 1px solid red; */
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footdivtwo li:hover {
     background-color: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footdivtwo svg {
@@ -348,6 +356,7 @@
     /* justify-content:space-around; */
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 .foot-div-three-button svg {
@@ -869,12 +878,13 @@
     /* padding: 14px; */
     box-shadow: none;
     fill: #AFB1B8;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 .sec4__teamlist-element:hover {
     background-color: #2196F3;
     fill: #ffffff;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 /* .sec4__teamlist-svg:hover {
     fill: #ffffff;
@@ -923,13 +933,14 @@
 .sec5__list-element {
     border:1px solid #AFB1B8;
     fill: #AFB1B8;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sec5__list-element:hover {
     border: solid 1px #2196F3;
     fill: var(--color-blue);
     /* fill: #2196f3; */
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 
@@ -975,10 +986,11 @@
     font-size: 16px;
     line-height: 0.615;
     /* line-height: 26px; */
-}
-.bsection__list-btn:hover {
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.bsection__list-btn:hover {
+    
     background-color: #2196F3;
     color: #FFFFFF;
 }
