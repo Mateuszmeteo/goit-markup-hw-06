@@ -16,9 +16,9 @@
      <header>
         <section class="headcont">
             <div class="container">
-                <div class="headerdiv">
-                    <div class="headdiv">
-                        <nav class="head1">
+                <div class="headdiv">
+                    <div class="headdiv__div1">
+                        <nav class="headdiv__nav1">
                             <a class="logoup nolink" href="./index.html">
                                 <span class="logoup11">Web</span>
                                 <span class="logoup12">Studio</span>
@@ -30,11 +30,11 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="headdiv">
-                        <nav class="head2">
-                            <ul class="head2list">
-                                <li><a class="logoup3 nolink" href="mailto:info@devstudio.com"><svg width="16" height="12"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
-                                <li><a class="logoup3 nolink" href="tel:+48 111 111 111"><svg width="10" height="16"><use href="./images/icons.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
+                    <div class="headdiv__div2">
+                        <nav class="headdiv__nav2">
+                            <ul class="headdiv__nav2-list">
+                                <li class="headdiv__nav2-listelement"><a class="logoup3 nolink" href="mailto:info@devstudio.com"><svg class="headdiv__nav2-svg" width="16" height="12"><use href="./images/icons.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
+                                <li class="headdiv__nav2-listelement"><a class="logoup3 nolink" href="tel:+48 111 111 111"><svg class="headdiv__nav2-svg" width="10" height="16"><use href="./images/icons.svg#icon-phone"></use></svg>+48 111 111 111</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -45,143 +45,66 @@
      <main>
         <section class="sec1">
             <div class="container">
-                <div class="div1sec1">
-                    <div class="div1box">
-                        <h1>efektywne rozwiązania dla waszego biznesu</h1>
-                        <button class="sec1-button" type="button" data-modal-open>Zamów usługę</button>
-                        <div class="backdrop is-hidden" data-modal>
-                            <div class="modal">
-                                <button class="modal-button-close" data-modal-close><span><svg width="11" height="11"><use href="./images/icons.svg#icon-vector"></use></svg></span></button>
-                                <div class="modal-head">
-                                    <form>
-                                        <h2>Zostaw swoje dane w formularzu poniżej</h2>
-                                        <fieldset class="fieldset">
-                                            <label class="label-one" for="name">Imię</label>
-                                            <svg class="label-one-svg" width="12" height="12"><use href="./images/icons.svg#icon-vector-name"></use></svg>
-                                            <input class="input-one"
-                                                type="text"
-                                                placeholder=""
-                                                id="name"
-                                            />
-                                        </fieldset>
-                                        <fieldset class="fieldset">
-                                            <label class="label-one" for="name">Telefon</label>
-                                            <svg class="label-one-svg" width="13" height="13"><use href="./images/icons.svg#icon-vector-phone"></use></svg>
-                                            <input class="input-one"
-                                                type="text"
-                                                placeholder=""
-                                                id="name"
-                                            />
-                                        </fieldset>
-                                        <fieldset class="fieldset">
-                                            <label class="label-one" for="name">Email</label>
-                                            <svg class="label-one-svg" width="15" height="12"><use href="./images/icons.svg#icon-vector-mail"></use></svg>
-                                            <input class="input-one"
-                                                type="text"
-                                                placeholder=""
-                                                 id="name"
-                                            />
-                                        </fieldset>
-                                        <fieldset class="fieldset-sec">
-                                            <label class="label-one" for="name">Komentarz</label>
-                                            <input class="input-sec"
-                                                type="text"
-                                                placeholder="Wprowadź tekst"
-                                                 id="name"
-                                            />
-                                        </fieldset>
-                                        <fieldset class="fieldset-thr">
-                                            <label class="fielset-thr-label"></label>
-                                            <input class="fieldset-thr-input" type="checkbox"/>
-                                                <!-- <svg class="thr-input-svg" width="16" height="15"><use href="./images/icons.svg#icon-checkboxicon"></use></svg> -->
-                                            <svg class="thr-input-svg2" width="16" height="15"><use href="./images/icons.svg#icon-checkvalid"></use></svg>
-                                            <p class="fieldset-thr-p">Oświadczam, iż akceptuję
-                                                <span><a class="link-span" href="#">Regulamin</a></span>
-                                                <span>i</span>
-                                                <span><a class="link-span" href="#">Poiltykę Prywatności.</a></span>
-                                            </p>
-                                        </fieldset>
-                                        <fieldset class="fieldset-thr">
-                                            <button class="fieldset-thr-btn">Wyślij</button>
-                                        </fieldset>
-                                        </div>
-                                    </form>
-                                    <!-- <h2>Zostaw swoje dane w formularzu poniżej</h2> -->
-                                <!-- </div>                             -->
-                                <!-- <div class="modal-one-div">
-                                    <ul>
-                                        <li>
-                                            <form class="form-one">
-                                                <fieldset class="fieldset">
-                                                    <label class="label-one" for="name">Imię</label>
-                                                    <svg class="label-one-svg" width="12px" height="12px"><use href="/images/icons.svg#icon-vector-name"></use></svg>
-                                                    <input class="input-one"
-                                                        type="text"
-                                                        placeholder=""
-                                                        id="name"
-                                                    />
-                                                </fieldset>
-                                            </form>
-                                        </li>
-                                        <li>
-                                            <form class="form-one">
-                                                <fieldset class="fieldset">
-                                                    <label class="label-one" for="name">Telefon</label>
-                                                    <svg class="label-one-svg" width="13px" height="13px"><use href="/images/icons.svg#icon-vector-phone"></use></svg>
-                                                    <input class="input-one"
-                                                        type="text"
-                                                        placeholder=""
-                                                        id="name"
-                                                    />
-                                                </fieldset>
-                                            </form>
-                                        </li>
-                                        <li>
-                                            <form class="form-one">
-                                                <fieldset class="fieldset">
-                                                    <label class="label-one" for="name">Email</label>
-                                                    <svg class="label-one-svg" width="15px" height="12px"><use href="/images/icons.svg#icon-vector-mail"></use></svg>
-                                                    <input class="input-one"
-                                                        type="text"
-                                                        placeholder=""
-                                                         id="name"
-                                                    />
-                                                </fieldset>
-                                            </form>
-                                        </li>
-                                        <li>
-                                            <form class="form-one">
-                                                <fieldset class="fieldset-sec">
-                                                    <label class="label-one" for="name">Komentarz</label>
-                                                    <input class="input-sec"
-                                                        type="text"
-                                                        placeholder="Wprowadź tekst"
-                                                         id="name"
-                                                    />
-                                                </fieldset>
-                                            </form>
-                                        </li>
-                                    </ul>
-                                </div> -->
-                                <!-- <div class="modal-two-div">
-                                    <form class="form-two">
-                                        <label></label>
-                                        <input class="modal-two-div-input" type="checkbox"/>
-                                    </form>
-                                    
-                                    <p>Oświadczam, iż akceptuję
-                                        <span><a class="link-span" href="#">Regulamin</a></span>
-                                        <span>i</span>
-                                        <span><a class="link-span" href="#">Poiltykę Prywatności.</a></span>
-                                    </p> -->
-                                    <!-- <ul>
-                                        <li><input type="checkbox"/></li>
-                                        <li><p>oświadczam iż akceptuję<span>regulamin</span>i<span>poiltykę prywatności.</span></p></li>
-                                    </ul> -->
-                                <!-- </div> -->
-                                <!-- <div class="modal-three-div">
-                                    <button width="50px" height="200px">Wyślij</button>
-                                </div>                                 -->
+                <div class="sec1__div div1sec1">
+                    <div class="sec1__divbox div1box">
+                        <h1 class="sec1__divbox-h1">efektywne rozwiązania dla waszego biznesu</h1>
+                        <button class="sec1__divbox-button sec1-button" type="button" data-modal-open>Zamów usługę</button>
+                    </div>
+                    <div class="sec1__modal backdrop is-hidden" data-modal>
+                        <div class="sec1__modal-div modal">
+                            <button class="modal-button-close" data-modal-close><span><svg width="11" height="11"><use href="./images/icons.svg#icon-vector"></use></svg></span></button>
+                            <div class="sec1__modal-head modal-head">
+                                <form>
+                                    <h2>Zostaw swoje dane w formularzu poniżej</h2>
+                                    <fieldset class="fieldset">
+                                        <label class="label-one" for="name">Imię</label>
+                                        <svg class="label-one-svg" width="12" height="12"><use href="./images/icons.svg#icon-vector-name"></use></svg>
+                                        <input class="input-one"
+                                            type="text"
+                                            placeholder=""
+                                            id="name"
+                                        />
+                                    </fieldset>
+                                    <fieldset class="fieldset">
+                                        <label class="label-one" for="name">Telefon</label>
+                                        <svg class="label-one-svg" width="13" height="13"><use href="./images/icons.svg#icon-vector-phone"></use></svg>
+                                        <input class="input-one"
+                                            type="text"
+                                            placeholder=""
+                                            id="name"
+                                        />
+                                    </fieldset>
+                                    <fieldset class="fieldset">
+                                        <label class="label-one" for="name">Email</label>
+                                        <svg class="label-one-svg" width="15" height="12"><use href="./images/icons.svg#icon-vector-mail"></use></svg>
+                                        <input class="input-one"
+                                            type="text"
+                                            placeholder=""
+                                             id="name"
+                                        />
+                                    </fieldset>
+                                    <fieldset class="fieldset-sec">
+                                        <label class="label-one" for="name">Komentarz</label>
+                                        <input class="input-sec"
+                                            type="text"
+                                            placeholder="Wprowadź tekst"
+                                             id="name"
+                                        />
+                                    </fieldset>
+                                    <fieldset class="fieldset-thr">
+                                        <label class="fielset-thr-label"></label>
+                                        <input class="fieldset-thr-input" type="checkbox"/>
+                                        <svg class="thr-input-svg2" width="16" height="15"><use href="./images/icons.svg#icon-checkvalid"></use></svg>
+                                        <p class="fieldset-thr-p">Oświadczam, iż akceptuję
+                                            <span><a class="link-span" href="#">Regulamin</a></span>
+                                            <span>i</span>
+                                            <span><a class="link-span" href="#">Poiltykę Prywatności.</a></span>
+                                        </p>
+                                    </fieldset>
+                                    <fieldset class="fieldset-thr">
+                                        <button class="fieldset-thr-btn">Wyślij</button>
+                                    </fieldset>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -360,38 +283,38 @@
         <section class="footcont">
             <div class="container">
                 <div class="footdiv">
-                    <div class="footdivone">
+                    <div class="footdiv__one">
                         <a class="logodown nolink" href="./index.html">
                             <span class="logodown11">Web</span>
                             <span class="logodown12">Studio</span>
                         </a>
-                        <ul class="logodownlist">
-                            <li><address><p class="logodown2 downaddres nolink">m.Warszawa, Aleje Jerozolimskie 21</p></address></li>
-                            <li><a class="logodown2 downkontakt nolink" href="mailto:info@example.com">info@example.com</a></li>
-                            <li><a class="logodown2 downkontakt nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
+                        <ul class="footdiv__one-list">
+                            <li class="logodown2"><address><p class="downaddres nolink">m.Warszawa, Aleje Jerozolimskie 21</p></address></li>
+                            <li class="logodown2"><a class="downkontakt nolink" href="mailto:info@example.com">info@example.com</a></li>
+                            <li class="logodown2"><a class="downkontakt nolink" href="tel:+48 111 111 111">+48 111 111 111</a></li>
                         </ul>
                     </div>
-                    <div class="footdivtwo">
-                        <h4>dołącz do nas</h4>
-                        <ul class="">
-                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-instagram2"></use></svg></li>
-                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-twitter2"></use></svg></li>
-                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-facebook2"></use></svg></li>
-                            <li><svg width="20" height="20"><use href="./images/icons.svg#icon-linkedin2"></use></svg></li>
+                    <div class="footdiv__two">
+                        <h4 class="footdiv__two-h4">dołącz do nas</h4>
+                        <ul class="footdiv__two-list">
+                            <li class="footdiv__two-listelement"><svg width="20" height="20"><use href="./images/icons.svg#icon-instagram2"></use></svg></li>
+                            <li class="footdiv__two-listelement"><svg width="20" height="20"><use href="./images/icons.svg#icon-twitter2"></use></svg></li>
+                            <li class="footdiv__two-listelement"><svg width="20" height="20"><use href="./images/icons.svg#icon-facebook2"></use></svg></li>
+                            <li class="footdiv__two-listelement"><svg width="20" height="20"><use href="./images/icons.svg#icon-linkedin2"></use></svg></li>
                         </ul>
                     </div>
-                    <div class="foot-div-three">
-                        <form class="foot-div-three--form">
-                            <h4 class="foot-div-three-h4">zapisz się do newslettera</h4>
-                            <fieldset class="form-fieldset">
-                                <label class="form-label" for="name">zapisz się do newslettera</label>
-                                <input class="foot-div-three-input"
+                    <div class="footdiv__thr">
+                        <form class="footdiv__thr-form">
+                            <h4 class="footdiv__thr-h4">zapisz się do newslettera</h4>
+                            <fieldset class="footdiv__thr--form-fieldset">
+                                <label class="footdiv__thr--form-label" for="name">zapisz się do newslettera</label>
+                                <input class="footdiv__thr--form-input"
                                     type="text"
                                     placeholder="E-mail"
                                     id="name"
                                 />
-                                <button class="foot-div-three-button">Zapisz się
-                                    <svg width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg>
+                                <button class="footdiv__thr--form-button">Zapisz się
+                                    <svg class="footdiv__thr--form-btn-svg" width="24" height="24"><use href="./images/icons.svg#icon-icon-send"></use></svg>
                                 </button>
                             </fieldset>
                         </form>
