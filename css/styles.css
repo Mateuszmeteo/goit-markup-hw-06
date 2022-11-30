@@ -438,7 +438,7 @@
 }
 .is-hidden {
     /* display: none; */
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
 }
 .modal {
     font-family: 'Roboto', sans-serif;
